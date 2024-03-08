@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#E8E8E8;
+
+}
+.container{
+    width: 21vw;
+    background-color:#BFBFBF ;
+    color:black;
+    padding: 3vw;
+   border-radius:3vw;
+   box-shadow:-8px 8px 10px #afafaf;
+}
+form .amount p{
+    font-size: 2.6vh;
+    margin-top: 4vh;
+    margin-left: 1.7vh;
+}
+
+form input, select, button{
+    width: 100%;
+    border-style: none;
+    outline: none;
+    /* padding: 1vw; */
+    margin: 1vw 0;
+    border-radius: 1vw;
+}
+
+form input{
+    font-size: 2vh;
+    padding: 1vw;
+}
+form select{
+    padding: 0.5vh;
+    margin-left: 0.5vh;
+}
+form .select select option{
+    /* background-color: #787380;
+    color: black; */
+    background-color: #231c23e1;
+    color:white;
+}
+form .conversion_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form .select img{
+    margin-left: 1.7vh;
+    width:4vw;
+    height:6vh;
+    object-fit: cover;
+}
+form .to p,.from p{
+    margin-left: 1.7vh;
+    font-size: 2.6vh;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vh;
+    background-color: white;
+    padding-right: 1vh;
+    margin: 1vh 0 2vh 0;
+}
+#to_crr,#from_crr{
+    font-size: 2vh;
+}
+form i{
+    font-size: 2.5vh;
+    margin-top: 1.4vh ;
+}
+
+form .message{
+    margin: 2vh 0;
+    font-size: 2.6vh;
+    margin-left: 1.7vh;
+}
+
+form .button button{
+    font-size: 2vh;
+    height: 5vh; 
+    line-height: 5vh;
+    background-color: #564256;
+    color: white;
+    cursor: pointer;
+}
+
+/* form .from , .to{
+    display: flex;
+    flex-direction: column;
+
+} */

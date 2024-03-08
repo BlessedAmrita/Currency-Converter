@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ccstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Currency Converter</h1>
+    <form action="">
+     <div class="amount">
+        <p>Enter Amount</p>
+        <input type="text" placeholder="Enter Amount" value="1">
+     </div>
+     <div class="conversion_box">
+        <div class="from">
+            <p>From</p>
+            <div class="select">
+                <img src="https://flagsapi.com/US/flat/64.png">
+                <select name="from" id="from_crr">
+                </select>
+            </div>
+        </div>
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+        <div class="to"> 
+            <p>To</p>
+            <div class="select">
+                <img src="https://flagsapi.com/IN/flat/64.png">
+                <select name="to" id="to_crr" >
+                </select>
+            </div>
+        </div>
+    </div>
+        <div class="message">
+            <p></p>
+        </div>
+        <div class="button">
+            <button>Get Exchange Rate</button>
+        </div>
+    </form>
+</div>
+<!-- you need to ensure that ccscript.js can access the countryList object defined in codes.js. You can achieve this by making sure that codes.js is included or loaded before ccscript.js in your HTML file. -->
+<script src="codes.js"></script>
+<script src="ccscript.js"></script>   
+</body>
+</html>
