@@ -5,7 +5,6 @@ This project is a simple yet functional web application that allows users to con
 ## Features
 - **Real-Time Exchange Rates:** Fetches up-to-date conversion rates via API calls.
 - **Clean and Intuitive Interface:** Designed with simplicity in mind to make conversions easy for any user.
-- **Responsive Design:** Works seamlessly across various devices, from desktops to mobiles.
 
 ## Technologies Used
 - HTML
